@@ -1,0 +1,14 @@
+case $some_variable in
+
+  pattern_1)
+    commands
+    ;;
+
+  pattern_2| pattern_3)
+    commands
+    ;;
+
+  *)
+    default commands
+    ;;
+esac
